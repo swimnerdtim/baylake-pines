@@ -8,7 +8,7 @@ import './App.css'
 
 function AppContent() {
   const location = useLocation()
-  const isLanding = location.pathname === '/'
+  const isLanding = location.pathname === '/baylake-pines/' || location.pathname === '/'
 
   return (
     <div className="app">
