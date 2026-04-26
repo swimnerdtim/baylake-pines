@@ -39,6 +39,8 @@
   padding: 2rem;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  display: block;
 }
 
 .hole-card:hover {
@@ -49,6 +51,8 @@
 .hole-card.coming-soon {
   opacity: 0.6;
   background-color: #f5f5f5;
+  cursor: not-allowed;
+  pointer-events: none;
 }
 
 .hole-header {
