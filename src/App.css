@@ -8,6 +8,7 @@ body {
   font-family: 'Georgia', 'Times New Roman', serif;
   background-color: #f8f8f8;
   color: #1a3a1a;
+  overscroll-behavior-y: contain;
 }
 
 .app {
