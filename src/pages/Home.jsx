@@ -45,23 +45,7 @@ function Home() {
         </Link>
       </div>
 
-      <div className="featured-hole">
-        <h2>Featured Hole</h2>
-        <img src="/baylake-pines/hole1.jpg" alt="Hole 1" className="featured-image" />
-        <div className="hole-showcase">
-          <div className="hole-number">Hole 1</div>
-          <div className="hole-details">
-            <h3>2309 Trelawney Road</h3>
-            <div className="hole-stats">
-              <span className="distance">65 feet</span>
-              <span className="par">Par 2</span>
-            </div>
-            <p className="hole-description">
-              The opening hole at Baylake Pines. A short approach shot to get you started.
-            </p>
-          </div>
-        </div>
-      </div>
+
     </div>
   )
 }
