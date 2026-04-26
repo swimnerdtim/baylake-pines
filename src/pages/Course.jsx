@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import courseData from '../data/course.json'
 import './Course.css'
 
@@ -16,9 +17,11 @@ function Course() {
 
       <div className="holes-grid">
         {courseData.holes.map(hole => (
-          <div 
-            key={hole.number} 
+          <Link
+            key={hole.number}
+            to={hole.status === 'active' ? `/hole/${hole.number}` : '#'}
             className={`hole-card ${hole.status === 'coming_soon' ? 'coming-soon' : ''}`}
+            style={{ textDecoration: 'none', color: 'inherit' }}
           >
             <div className="hole-header">
               <span className="hole-number-badge">Hole {hole.number}</span>
@@ -57,7 +60,7 @@ function Course() {
                 <p className="coming-soon-text">Course expansion in progress</p>
               </div>
             )}
-          </div>
+          </Link>
         ))}
       </div>
 

@@ -4,6 +4,7 @@ import Landing from './pages/Landing'
 import Home from './pages/Home'
 import Course from './pages/Course'
 import About from './pages/About'
+import HoleDetail from './pages/HoleDetail'
 import './App.css'
 
 function AppContent() {
@@ -33,6 +34,7 @@ function AppContent() {
           <Route path="/" element={<Landing />} />
           <Route path="/home" element={<Home />} />
           <Route path="/course" element={<Course />} />
+          <Route path="/hole/:holeNumber" element={<HoleDetail />} />
           <Route path="/about" element={<About />} />
         </Routes>
       </main>
