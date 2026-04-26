@@ -15,7 +15,7 @@ function AppContent() {
       {!isLanding && (
         <header className="header">
           <div className="header-content">
-            <Link to="/home" className="logo">
+            <Link to="/" className="logo">
               <h1>BAYLAKE PINES</h1>
               <p className="subtitle">COUNTRY CLUB</p>
             </Link>
