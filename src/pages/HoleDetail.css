@@ -16,6 +16,29 @@
   opacity: 0.7;
 }
 
+/* Hole Title Section */
+.hole-title-section {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.hole-number-label {
+  display: block;
+  font-size: 1rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  margin-bottom: 0.5rem;
+}
+
+.hole-title {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: #0d2818;
+  letter-spacing: 0.05em;
+  margin: 0;
+}
+
 /* Hero Image */
 .hole-hero {
   position: relative;
@@ -30,33 +53,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.hole-hero-overlay {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: white;
-  z-index: 2;
-}
-
-.hole-number-badge {
-  display: block;
-  font-size: 1.2rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
-}
-
-.hole-name {
-  font-size: 3.5rem;
-  font-weight: 400;
-  letter-spacing: 0.05em;
-  margin: 0;
-  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.9);
 }
 
 /* Stats Section */
@@ -250,7 +246,7 @@
     height: 300px;
   }
 
-  .hole-name {
+  .hole-title {
     font-size: 2rem;
   }
 

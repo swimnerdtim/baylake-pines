@@ -31,14 +31,16 @@ function HoleDetail() {
     <div className="hole-detail">
       <Link to="/course" className="back-link">← Back to Course</Link>
       
+      {/* Hole Title */}
+      <div className="hole-title-section">
+        <span className="hole-number-label">Hole {hole.number}</span>
+        <h1 className="hole-title">{hole.name || hole.address}</h1>
+      </div>
+
       {/* Hero Image */}
       {hasPhotos && (
         <div className="hole-hero">
           <img src={`/baylake-pines/${photos[currentPhoto]}`} alt={hole.name || `Hole ${hole.number}`} />
-          <div className="hole-hero-overlay">
-            <span className="hole-number-badge">Hole {hole.number}</span>
-            <h1 className="hole-name">{hole.name || hole.address}</h1>
-          </div>
         </div>
       )}
 
