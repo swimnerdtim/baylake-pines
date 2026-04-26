@@ -29,6 +29,13 @@ function Course() {
             
             {hole.status === 'active' ? (
               <>
+                {hole.image && (
+                  <img 
+                    src={`/${hole.image}`} 
+                    alt={`Hole ${hole.number}`} 
+                    className="hole-image"
+                  />
+                )}
                 <h3 className="hole-address">{hole.address}</h3>
                 {hole.homeowner && (
                   <p className="homeowner">Hosted by: {hole.homeowner}</p>
@@ -44,7 +51,7 @@ function Course() {
                   </div>
                 </div>
                 <p className="hole-description">{hole.description}</p>
-              </>
+              <>
             ) : (
               <div className="coming-soon-content">
                 <p className="coming-soon-text">Course expansion in progress</p>
