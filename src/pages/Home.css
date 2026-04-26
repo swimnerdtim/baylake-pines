@@ -1,0 +1,187 @@
+.home {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 3rem 0;
+  border-bottom: 3px solid #0d2818;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #0d2818;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #2d5a2d;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #0d2818;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.3rem;
+}
+
+/* Intro Section */
+.intro-section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #0d2818;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 1rem 2rem;
+  background-color: #0d2818;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  transition: background-color 0.3s;
+  border-radius: 4px;
+}
+
+.cta-button:hover {
+  background-color: #1a4a2a;
+}
+
+/* Featured Hole */
+.featured-hole {
+  margin-top: 4rem;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.featured-hole h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #0d2818;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+
+.hole-showcase {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.hole-number {
+  font-size: 4rem;
+  font-weight: 400;
+  color: #0d2818;
+  min-width: 120px;
+  text-align: center;
+  border-right: 2px solid #e0e0e0;
+  padding-right: 2rem;
+}
+
+.hole-details h3 {
+  font-size: 1.5rem;
+  color: #0d2818;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+.hole-stats {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.distance, .par {
+  color: #2d5a2d;
+  font-weight: 500;
+}
+
+.hole-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  font-style: italic;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-stats {
+    gap: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .hole-showcase {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hole-number {
+    border-right: none;
+    border-bottom: 2px solid #e0e0e0;
+    padding-right: 0;
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "courseName": "Baylake Pines Country Club",
+  "courseAbbrev": "BLPCC",
+  "location": "Baylake Pines",
+  "established": 2026,
+  "holes": [
+    {
+      "number": 1,
+      "address": "2309 Trelawney Road",
+      "distance": 65,
+      "par": 2,
+      "homeowner": "",
+      "description": "The opening hole at Baylake Pines. A short approach shot to get you started.",
+      "status": "active"
+    },
+    {
+      "number": 2,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 3,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 4,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 5,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 6,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 7,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 8,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    },
+    {
+      "number": 9,
+      "address": "TBD",
+      "distance": null,
+      "par": null,
+      "homeowner": "",
+      "description": "Coming soon...",
+      "status": "coming_soon"
+    }
+  ]
+}

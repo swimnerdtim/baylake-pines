@@ -1,0 +1,197 @@
+.course {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Course Header */
+.course-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #0d2818;
+}
+
+.course-header h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #0d2818;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.course-subtitle {
+  font-size: 1.2rem;
+  color: #2d5a2d;
+  font-style: italic;
+}
+
+/* Holes Grid */
+.holes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.hole-card {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.hole-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.hole-card.coming-soon {
+  opacity: 0.6;
+  background-color: #f5f5f5;
+}
+
+.hole-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.hole-number-badge {
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: #0d2818;
+  letter-spacing: 0.05em;
+}
+
+.status-badge {
+  background-color: #ffa726;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.hole-address {
+  font-size: 1.4rem;
+  color: #0d2818;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.homeowner {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.hole-stats-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  background-color: #f8f8f8;
+  border-radius: 6px;
+}
+
+.stat-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.8rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.3rem;
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  color: #0d2818;
+  font-weight: 500;
+}
+
+.hole-description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+  font-style: italic;
+}
+
+.coming-soon-content {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.coming-soon-text {
+  font-size: 1rem;
+  color: #999;
+  font-style: italic;
+}
+
+/* Course Summary */
+.course-summary {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.course-summary h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #0d2818;
+  text-align: center;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05em;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.summary-item {
+  text-align: center;
+  padding: 1rem;
+}
+
+.summary-label {
+  display: block;
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.summary-value {
+  display: block;
+  font-size: 2rem;
+  color: #0d2818;
+  font-weight: 500;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .holes-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .course-header h1 {
+    font-size: 2rem;
+  }
+
+  .summary-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
