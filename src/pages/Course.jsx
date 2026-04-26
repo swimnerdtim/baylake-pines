@@ -31,7 +31,7 @@ function Course() {
               <>
                 {hole.image && (
                   <img 
-                    src={`/${hole.image}`} 
+                    src={`/baylake-pines/${hole.image}`} 
                     alt={`Hole ${hole.number}`} 
                     className="hole-image"
                   />

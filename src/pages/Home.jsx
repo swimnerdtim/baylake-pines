@@ -47,7 +47,7 @@ function Home() {
 
       <div className="featured-hole">
         <h2>Featured Hole</h2>
-        <img src="/hole1.jpg" alt="Hole 1" className="featured-image" />
+        <img src="/baylake-pines/hole1.jpg" alt="Hole 1" className="featured-image" />
         <div className="hole-showcase">
           <div className="hole-number">Hole 1</div>
           <div className="hole-details">
