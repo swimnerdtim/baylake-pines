@@ -40,7 +40,7 @@ function HoleDetail() {
       {/* Hero Image */}
       {hasPhotos && (
         <div className="hole-hero">
-          <img src={`/baylake-pines/${photos[currentPhoto]}`} alt={hole.name || `Hole ${hole.number}`} />
+          <img src={`/${photos[currentPhoto]}`} alt={hole.name || `Hole ${hole.number}`} />
         </div>
       )}
 
@@ -85,7 +85,7 @@ function HoleDetail() {
             {photos.map((photo, index) => (
               <img
                 key={index}
-                src={`/baylake-pines/${photo}`}
+                src={`/${photo}`}
                 alt={`Hole ${hole.number} view ${index + 1}`}
                 className={`gallery-photo ${index === currentPhoto ? 'active' : ''}`}
                 onClick={() => setCurrentPhoto(index)}

@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom'
 import './Landing.css'
 
 const images = [
-  '/baylake-pines/aerial.jpg',
-  '/baylake-pines/aerial2.jpg',
-  '/baylake-pines/aerial3.jpg',
-  '/baylake-pines/aerial4.jpg'
+  '/aerial.jpg',
+  '/aerial2.jpg',
+  '/aerial3.jpg',
+  '/aerial4.jpg'
 ]
 
 function Landing() {
