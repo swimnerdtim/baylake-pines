@@ -16,9 +16,9 @@
       "nameStory": "Crown jewel of loblolly pine trees supposedly planted in 1799 as a memorial to George Washington. This majestic tree stands as a silent witness to over two centuries of neighborhood history.",
       "image": "hole1.jpg",
       "photos": [
+        "hole1-aerial.jpg",
         "hole1.jpg",
-        "hole1-action.jpg",
-        "hole1-aerial.jpg"
+        "hole1-action.jpg"
       ],
       "status": "active"
     },
