@@ -30,7 +30,7 @@ function Landing() {
         />
       ))}
       <div className="landing-overlay">
-        <h1 className="landing-title">BAYLAKE PINES</h1>
+        <img src="/baylake-pines/logo-vintage.jpg" alt="Baylake Pines" className="landing-logo" />
         <p className="landing-subtitle">COUNTRY CLUB</p>
         <Link to="/home" className="welcome-button">
           WELCOME

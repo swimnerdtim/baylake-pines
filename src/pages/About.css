@@ -25,6 +25,29 @@
   font-style: italic;
 }
 
+/* Heritage Section */
+.heritage-section {
+  text-align: center;
+  padding: 2rem 0 3rem 0;
+  border-bottom: 2px solid #e0e0e0;
+  margin-bottom: 3rem;
+}
+
+.heritage-logo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.heritage-text {
+  font-size: 1.1rem;
+  color: #666;
+  font-style: italic;
+  letter-spacing: 0.05em;
+}
+
 /* About Content */
 .about-content {
   background: white;

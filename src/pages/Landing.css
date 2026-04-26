@@ -38,13 +38,12 @@
   gap: 1rem;
 }
 
-.landing-title {
-  font-size: 4rem;
-  font-weight: 400;
-  letter-spacing: 0.2em;
-  margin: 0;
-  color: white !important;
-  text-shadow: 3px 3px 12px rgba(0, 0, 0, 0.9);
+.landing-logo {
+  max-width: 500px;
+  width: 90%;
+  height: auto;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 8px 16px rgba(0, 0, 0, 0.6));
 }
 
 .landing-subtitle {
@@ -79,8 +78,8 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  .landing-title {
-    font-size: 2.5rem;
+  .landing-logo {
+    max-width: 300px;
   }
 
   .landing-subtitle {

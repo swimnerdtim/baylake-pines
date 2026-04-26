@@ -9,6 +9,11 @@ function About() {
       </div>
 
       <div className="about-content">
+        <section className="heritage-section">
+          <img src="/baylake-pines/logo-vintage.jpg" alt="Baylake Pines Heritage Logo" className="heritage-logo" />
+          <p className="heritage-text">Est. 1960s • A lakefront community tradition</p>
+        </section>
+
         <section className="about-section">
           <h2>Our Story</h2>
           <p>
