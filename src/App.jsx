@@ -8,7 +8,7 @@ import './App.css'
 
 function AppContent() {
   const location = useLocation()
-  const isLanding = location.pathname === '/baylake-pines/' || location.pathname === '/'
+  const isLanding = location.pathname === '/'
 
   return (
     <div className="app">
@@ -49,7 +49,7 @@ function AppContent() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/baylake-pines">
       <AppContent />
     </Router>
   )
