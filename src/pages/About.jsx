@@ -11,7 +11,7 @@ function About() {
       <div className="about-content">
         <section className="heritage-section">
           <img src="/logo-vintage.jpg" alt="Baylake Pines Heritage Logo" className="heritage-logo" />
-          <p className="heritage-text">Est. 1960s • A lakefront community tradition</p>
+          <p className="heritage-text">The #1 Neighborhood in VB, VA</p>
         </section>
 
         <section className="about-section">
