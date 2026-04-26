@@ -42,7 +42,7 @@ function AppContent() {
       {!isLanding && (
         <footer className="footer">
           <p>Baylake Pines Country Club © 2026</p>
-          <p className="tagline">A Tradition Unlike Any Other</p>
+          <p className="tagline">POWERED BY THE #1 NEIGHBORHOOD IN VIRGINIA BEACH</p>
         </footer>
       )}
     </div>

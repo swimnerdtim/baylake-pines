@@ -5,7 +5,7 @@ function About() {
     <div className="about">
       <div className="about-header">
         <h1>About Baylake Pines Country Club</h1>
-        <p className="tagline">A Tradition Unlike Any Other</p>
+        <p className="tagline">POWERED BY THE #1 NEIGHBORHOOD IN VIRGINIA BEACH</p>
       </div>
 
       <div className="about-content">
