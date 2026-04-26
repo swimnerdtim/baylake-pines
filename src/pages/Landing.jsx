@@ -5,7 +5,8 @@ import './Landing.css'
 const images = [
   '/baylake-pines/aerial.jpg',
   '/baylake-pines/aerial2.jpg',
-  '/baylake-pines/aerial3.jpg'
+  '/baylake-pines/aerial3.jpg',
+  '/baylake-pines/aerial4.jpg'
 ]
 
 function Landing() {
