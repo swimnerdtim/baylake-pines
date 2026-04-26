@@ -1,0 +1,76 @@
+.landing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/aerial.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-overlay {
+  text-align: center;
+  color: white;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.landing-title {
+  font-size: 4rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+
+.landing-subtitle {
+  font-size: 1.5rem;
+  letter-spacing: 0.3em;
+  margin: 0 0 3rem 0;
+  opacity: 0.95;
+}
+
+.welcome-button {
+  padding: 1rem 3rem;
+  background-color: rgba(13, 40, 24, 0.9);
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  letter-spacing: 0.2em;
+  border: 2px solid white;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.welcome-button:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+  color: #0d2818;
+  border-color: #0d2818;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2.5rem;
+  }
+
+  .landing-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .welcome-button {
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+}
