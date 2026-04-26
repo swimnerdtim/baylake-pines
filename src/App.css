@@ -37,18 +37,10 @@ body {
   color: white;
 }
 
-.logo h1 {
-  font-size: 1.8rem;
-  font-weight: 400;
-  letter-spacing: 0.1em;
-  margin-bottom: 0.2rem;
-  color: white;
-}
-
-.subtitle {
-  font-size: 0.9rem;
-  letter-spacing: 0.15em;
-  opacity: 0.9;
+.logo-image {
+  height: 60px;
+  width: auto;
+  display: block;
 }
 
 .nav {
