@@ -51,7 +51,7 @@ function Course() {
                   </div>
                 </div>
                 <p className="hole-description">{hole.description}</p>
-              <>
+              </>
             ) : (
               <div className="coming-soon-content">
                 <p className="coming-soon-text">Course expansion in progress</p>
