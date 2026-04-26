@@ -17,7 +17,8 @@ function AppContent() {
         <header className="header">
           <div className="header-content">
             <Link to="/" className="logo">
-              <img src="/baylake-pines/logo-vintage.jpg" alt="Baylake Pines Country Club" className="logo-image" />
+              <h1>BAYLAKE PINES</h1>
+              <p className="subtitle">COUNTRY CLUB</p>
             </Link>
             <nav className="nav">
               <Link to="/home">Home</Link>
