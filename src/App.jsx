@@ -12,7 +12,7 @@ import './App.css'
 
 function AppContent() {
   const location = useLocation()
-  const isLanding = location.pathname === '/baylake-pines/' || location.pathname === '/baylake-pines'
+  const isLanding = location.pathname === '/'
 
   return (
     <div className="app">
