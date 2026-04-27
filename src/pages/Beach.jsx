@@ -36,20 +36,6 @@ function Beach() {
         </div>
 
         <div className="content-block">
-          <h2>Beach Life</h2>
-          <ul className="feature-list">
-            <li>Soft sandy beach with maintained access</li>
-            <li>Shallow bay waters perfect for young swimmers</li>
-            <li>Beach volleyball and sandcastle competitions</li>
-            <li>Picnic areas and shade structures</li>
-            <li>Lifeguard on duty during peak summer hours</li>
-            <li>Maintained walkway with bike path from neighborhood</li>
-            <li>Crabbing and fishing off private dock</li>
-            <li>Stunning sunsets over the Chesapeake</li>
-          </ul>
-        </div>
-
-        <div className="content-block">
           <h2>More Than Just Sand and Surf</h2>
           <p>
             This is where kids build their first sandcastles, where families spend 
