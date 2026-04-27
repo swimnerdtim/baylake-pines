@@ -6,23 +6,76 @@
 /* Course Header */
 .course-header {
   text-align: center;
-  margin-bottom: 3rem;
-  padding-bottom: 2rem;
+  padding: 3rem 0;
   border-bottom: 3px solid #0d2818;
+  margin-bottom: 3rem;
 }
 
 .course-header h1 {
   font-size: 3rem;
   font-weight: 400;
   color: #0d2818;
-  letter-spacing: 0.05em;
   margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
 }
 
 .course-subtitle {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: #2d5a2d;
   font-style: italic;
+  margin-bottom: 2rem;
+}
+
+.hero-stats {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #0d2818;
+  display: block;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.3rem;
+}
+
+/* Intro Section */
+.intro-section {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.intro-section h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #0d2818;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.05em;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 1rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Holes Grid */
@@ -148,50 +201,7 @@
   font-style: italic;
 }
 
-/* Course Summary */
-.course-summary {
-  background: white;
-  border-radius: 8px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-bottom: 2rem;
-}
 
-.course-summary h2 {
-  font-size: 2rem;
-  font-weight: 400;
-  color: #0d2818;
-  text-align: center;
-  margin-bottom: 2rem;
-  letter-spacing: 0.05em;
-}
-
-.summary-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 2rem;
-}
-
-.summary-item {
-  text-align: center;
-  padding: 1rem;
-}
-
-.summary-label {
-  display: block;
-  font-size: 0.9rem;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin-bottom: 0.5rem;
-}
-
-.summary-value {
-  display: block;
-  font-size: 2rem;
-  color: #0d2818;
-  font-weight: 500;
-}
 
 /* Mobile */
 @media (max-width: 768px) {
@@ -203,7 +213,11 @@
     font-size: 2rem;
   }
 
-  .summary-grid {
-    grid-template-columns: repeat(2, 1fr);
+  .hero-stats {
+    gap: 1.5rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
   }
 }
