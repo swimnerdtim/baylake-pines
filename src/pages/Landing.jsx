@@ -4,9 +4,9 @@ import './Landing.css'
 
 const images = [
   '/aerial.jpg',
-  '/aerial2.jpg',
+  '/aerial4.jpg',
   '/aerial3.jpg',
-  '/aerial4.jpg'
+  '/aerial2.jpg'
 ]
 
 function Landing() {
