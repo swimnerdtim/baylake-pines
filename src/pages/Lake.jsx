@@ -37,20 +37,6 @@ function Lake() {
         </div>
 
         <div className="content-block">
-          <h2>Activities & Amenities</h2>
-          <ul className="feature-list">
-            <li>Swimming in crystal-clear freshwater</li>
-            <li>Electric-powered boats, kayaks, and paddleboards</li>
-            <li>Fishing for bass and bluegill</li>
-            <li>Private sandy beach area with lifeguard</li>
-            <li>Dock access for all residents</li>
-            <li>Maintained walkway and bike path to beach</li>
-            <li>Sunset views over the water</li>
-            <li>Annual boat parade and water games on July 4th</li>
-          </ul>
-        </div>
-
-        <div className="content-block">
           <h2>A Hub of Recreation</h2>
           <p>
             More than just a body of water, Lake Joyce is where neighbors connect, 
